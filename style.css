@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',
+    sans-serif;
+}
+header{
+    background: #fec107;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    color: #ffffff;
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83vh;
+}
+.login-form{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-form input{
+    margin: 10px;
+}
+
+::placeholder{
+    font-size: 20px;
+}
+
+footer{
+    height: 7vh;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* main page */
+#left-frame
+{
+    margin-top: 10px;
+    height: 680px;
+    width: 15%;
+    background-color: #fec107;
+}
+#main-frame{
+    height: 680px;
+    width: 70%;
+}
+#right-frame{
+    background-color: #fec107;
+    width: 14.4%;
+    height: 680px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+}
+li{
+    margin: 30px;
+    list-style-type: none;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+li a:hover{
+    color:#fec107;
+}
+ul li:last-child{
+    background-color: #fec107;
+}
+ul li a:last-child:hover{
+    color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+.main>h1{
+    text-align: center;
+}
+.para{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.img{
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    z-index: -1;
+    filter: blur(3px);
+    
+}
+/* Product Page */
+.wrapper {
+    
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.125);
+    padding: 30px;
+}
+
+.wrapper .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fec107;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form {
+    width: 100%;
+}
+
+.wrapper .form .inputfield {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .inputfield label {
+    width: 149px;
+    color: #757575;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.wrapper .form .inputfield .input,
+.wrapper .form .inputfield .textarea,
+.login-form input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .form .inputfield .textarea {
+    width: 100%;
+    height: 125px;
+    resize: none;
+}
+
+.wrapper .form .inputfield .custom_select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+#list_box option{
+    height: 24px;
+}
+#list_box option:focus{
+    border: 1px solid #fec107;
+}
+
+.wrapper .form .inputfield .custom_select select {
+    appearance: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+}
+
+.gender{
+    margin-right: 7px;
+}
+.wrapper .form .inputfield .input:focus,
+.wrapper .form .inputfield .textarea:focus,
+.wrapper .form .inputfield .custom_select select:focus,
+.login-form input:focus {
+    border: 1px solid #fec107;
+}
+
+.wrapper .form .inputfield p {
+    font-size: 14px;
+    color: #757575;
+}
+
+.wrapper .form .inputfield .check {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.wrapper .form .inputfield .check input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.wrapper .form .inputfield .check .checkmark {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fec107;
+    display: block;
+    position: relative;
+}
+
+
+
+.wrapper .form .inputfield .btn, 
+button {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0px;
+    background: #fec107;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.wrapper .form .inputfield .btn:hover,
+button:hover {
+    background: #ffd658;
+}
+
+.wrapper .form .inputfield:last-child {
+    margin-bottom: 0;
+}
+
+
+
