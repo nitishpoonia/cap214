@@ -74,7 +74,6 @@ li a{
 li{
     margin: 30px;
     list-style-type: none;
-    background-color: whitesmoke;
     padding: 10px;
     border-radius: 10px;
 }
@@ -100,6 +99,14 @@ h1{
     letter-spacing: 1px;
     line-height: 30px;
 }
+.para-announce{
+    text-align: center;
+    background-color: #ffd658;
+}
+.announce-ul li{
+    list-style-type: disc;
+}
+
 .img{
     width: 1200px;
     height: 700px;
